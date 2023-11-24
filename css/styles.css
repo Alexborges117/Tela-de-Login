@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+:root{
+    --color--roxo: #6B2CF5;
+    --color--rosa: #D450E6;
+
+    --color--degrademain: linear-gradient(330deg, var(--color--roxo), var(--color--rosa));
+
+    --color--roxocont: #9809DE;
+    --color--rosacont: #EF4AFB;
+
+    --color--degrademaincontainer: linear-gradient(90deg, var(--color--roxocont), var(--color--rosacont));
+
+    --color--roxoform: #a20fe2;
+    --color--rosaform: #e341f7;
+
+    --color--degradeform: linear-gradient(90deg, var(--color--roxoform), var(--color--rosaform));
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: var(--color--degrademain);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container{
+    width: 945px;
+    height: 772px;
+    background: var(--color--degrademaincontainer);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+.cont{
+    width: 687px;
+    height: 722px;
+    background: var(--color--degradeform);
+    border-top-left-radius: 344px;
+    border-bottom-left-radius: 344px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    left: 747px;
+}
+
+
+
